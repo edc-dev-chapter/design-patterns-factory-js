@@ -1,8 +1,15 @@
 const Pizza = require('./interfaces/pizza');
 
 class CheesePizza extends Pizza {
-    prepare() {};
-    getIngredients() {};
+    constructor() {
+        super();
+    }
+    prepare() {
+        this.ingredients.push('double cheese');
+    };
+    getIngredients() {
+        return this.ingredients;
+    };
 }
 
 module.exports = CheesePizza;
