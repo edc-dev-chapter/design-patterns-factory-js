@@ -1,6 +1,9 @@
 class PizzaFactory {
     createPizza (pizzaType) {
-        return {};
+        return {
+            prepare: () => {},
+            getIngredients: () => []
+        };
     };
 }
 
