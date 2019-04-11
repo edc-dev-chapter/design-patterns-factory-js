@@ -1,4 +1,4 @@
-class veggiePizza {
+class VeggiePizza {
 }
 
-module.exports = veggiePizza;
+module.exports = VeggiePizza;
