@@ -1,8 +1,8 @@
 const Pizza = require('./interfaces/pizza');
 
-class pepperoniPizza extends Pizza {
+class PepperoniPizza extends Pizza {
     prepare() {};
     getIngredients() { return []; };
 }
 
-module.exports = pepperoniPizza;
+module.exports = PepperoniPizza;
