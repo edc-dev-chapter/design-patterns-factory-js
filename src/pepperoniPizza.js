@@ -1,6 +1,6 @@
 const Pizza = require('./interfaces/pizza');
 
-class pepperoniPizza extends Pizza {
+class PepperoniPizza extends Pizza {
     constructor() {
         super();
     }
@@ -12,4 +12,4 @@ class pepperoniPizza extends Pizza {
     };
 }
 
-module.exports = pepperoniPizza;
+module.exports = PepperoniPizza;
