@@ -29,4 +29,4 @@ If your tests are passing, go ahead and checkout the **factory-step-3** branch a
 ### Step-3
 New tests has appeared in **test/tests.js** along with a **PizzaFactory** class. If you run the new tests you will see that they fail. Your job in this step is to provide implementation of the factory class so that the tests will pass.
 
-If your tests are passing, go ahead and checkout the **step-4** branch and follow the instructions from the Readme document.
+If your tests are passing, go ahead and checkout the **factory-step-4** branch and follow the instructions from the Readme document.
