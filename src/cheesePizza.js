@@ -2,7 +2,7 @@ const Pizza = require('./interfaces/pizza');
 
 class CheesePizza extends Pizza {
     prepare() {};
-    getIngredients() {};
+    getIngredients() { return []; };
 }
 
 module.exports = CheesePizza;
